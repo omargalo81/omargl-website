@@ -26,17 +26,17 @@
       canvas.width = W;
       canvas.height = H;
 
-      var fontSize = 16;
+      var fontSize = 20;
       var columns = Math.floor(W / fontSize);
       var drops = [];
       for (var i = 0; i < columns; i++) {
         drops.push(0);
       }
-      var str = "JavaScript Hacking Effect";
+      var str = "*) 9ｦｱｳ 0ｴｵｶM 8ｷｹｺ 7ｻｼｽO 5ｾｿﾀ 4ﾂﾃﾅ ﾆ OMAR日 :.=*+(-¦|_ 3ﾇﾈﾊ 2ﾋﾎﾏR 1ﾐﾑﾒA ﾓﾔﾕ ﾗﾘﾜ";
       function draw() {
-        context.fillStyle = "rgba(0,0,0,0.05)";
+        context.fillStyle = "rgba(0,0,0,0.04)";
         context.fillRect(0, 0, W, H);
-        context.fontSize = "700 " + fontSize + "px";
+        context.fontSize = "800 " + fontSize + "px";
         context.fillStyle = "#00cc33";
         for (var i = 0; i < columns; i++) {
           var index = Math.floor(Math.random() * str.length);
@@ -50,7 +50,7 @@
         }
       }
       draw();
-      setInterval(draw, 35);
+      setInterval(draw, 50);
     </script>
   </body>
 </html>
